@@ -14,9 +14,10 @@ export class CubeComponent {
   mouseDown = false;
   last: MouseEvent;
   mode: Mode;
+  showSideText = true;
   constructor() {
     this.cube = new Cube();
-    this.mode = Mode.Play;
+    this.mode = Mode.Move;
   }
 
   private performMove(code: number) {
@@ -40,11 +41,13 @@ export class CubeComponent {
 
   @HostListener('window:mouseup') onMouseup() {
     this.mouseDown = false;
+    this.showSideText = false;
   }
 
   @HostListener('window:mousedown', ['$event']) onMousedown(event) {
     this.mouseDown = true;
     this.last = event;
+    this.showSideText = true;
   }
 
   @HostListener('window:mousemove', ['$event']) onMousemove(event: MouseEvent) {

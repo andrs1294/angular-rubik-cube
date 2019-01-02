@@ -21,12 +21,12 @@ export class Cube {
   }
 
   reset() {
-    this.top = new Side(Color.Red, SidePosition.Top);
-    this.bottom = new Side(Color.Orange, SidePosition.Bottom);
-    this.left = new Side(Color.Green, SidePosition.Left);
-    this.right = new Side(Color.Blue, SidePosition.Right);
-    this.front = new Side(Color.Yellow, SidePosition.Front);
-    this.back = new Side(Color.White, SidePosition.Back);
+    this.top = new Side(Color.Red, SidePosition.Top, 'Front-end');
+    this.bottom = new Side(Color.Orange, SidePosition.Bottom, 'Back-end');
+    this.left = new Side(Color.Green, SidePosition.Left, 'Mobile');
+    this.right = new Side(Color.Blue, SidePosition.Right, 'DB');
+    this.front = new Side(Color.Yellow, SidePosition.Front, 'Cloud');
+    this.back = new Side(Color.White, SidePosition.Back, '');
     // select cell 0,0 from the front side by default
     this.front.selectCell(0, 0);
     this.rotateX = -18;

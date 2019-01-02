@@ -7,7 +7,7 @@ import { Cube, Side } from '../models';
   styleUrls: ['./side.component.css']
 })
 export class SideComponent {
-
+  @Input() showText;
   @Input() cube: Cube;
   @Input() side: Side;
 
