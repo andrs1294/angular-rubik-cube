@@ -9,6 +9,7 @@ import { CubeControlsComponent } from './cube-controls/cube-controls.component';
 import { HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { HammerConfig } from './hammer-config';
 import { FooterComponent } from './footer/footer.component';
+import { DescriptionComponent } from './description/description.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     CubeComponent,
     SideComponent,
     CubeControlsComponent,
-    FooterComponent
+    FooterComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
