@@ -2,13 +2,14 @@ import { Cell } from './cell';
 import { Location } from './location';
 import { CurrentSelection } from './current-selection';
 import { SidePosition, Color } from '../enums';
+import * as data from '../../assets/resources.json';
 
 export class Side {
   cells: Cell[][];
 
-  constructor(color: Color, public position: SidePosition, public text: string = '') {
+  constructor(public color: Color, public position: SidePosition, public text: string = '') {
     this.cells = [
-      [new Cell(color), new Cell(color), new Cell(color)],
+      [new Cell(color, data[text][0].img), new Cell(color), new Cell(color)],
       [new Cell(color), new Cell(color), new Cell(color)],
       [new Cell(color), new Cell(color), new Cell(color)],
     ];
@@ -33,10 +34,5 @@ export class Side {
       [this.cells[0][1], this.cells[1][1], this.cells[2][1]],
       [this.cells[0][0], this.cells[1][0], this.cells[2][0]]
     ];
-  }
-
-  getColor() {
-    const cell = this.cells[0][0];
-    return cell.color;
   }
 }

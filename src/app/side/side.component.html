@@ -1,5 +1,5 @@
 <div class="side">
-<div *ngIf='showText; else showCells' class="text" [ngClass]="side.getColor()">
+<div *ngIf='showText; else showCells' class="text" [ngClass]="side.color">
   <p>
       {{side.text}}
   </p>
@@ -10,7 +10,7 @@
           [class.selected]="cell.isSelected(x_index, y_index, side)"
           [ngClass]="cell.color"
           (click)="select(x_index, y_index)">
-          {{cell.text}}
+          <img *ngIf="cell.text" [src]="cell.getImage(side)" class="cellImg">        
         </div>
     </ng-container>
 </ng-template>

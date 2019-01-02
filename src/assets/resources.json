@@ -1,0 +1,44 @@
+{
+  "Front-end": [
+    {
+      "img": "angular.png",
+      "text": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    }
+  ],
+  "Back-end": [
+    {
+      "img": "angular.png",
+      "text": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    }
+  ],
+  "Mobile": [
+    {
+      "img": "angular.png",
+      "text": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    }
+  ],
+  "DB": [
+    {
+      "img": "angular.png",
+      "text": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    }
+  ],
+  "Cloud": [
+    {
+      "img": "angular.png",
+      "text": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    }
+  ],
+  "Empty": [
+    {
+      "img": "angular.png",
+      "text": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    }
+  ]
+}
