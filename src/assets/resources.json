@@ -2,42 +2,62 @@
   "Front-end": [
     {
       "img": "angular.png",
-      "text": "Angular",
+      "title": "Angular",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     }
   ],
   "Back-end": [
     {
       "img": "angular.png",
-      "text": "Angular",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+      "title": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     }
   ],
   "Mobile": [
     {
       "img": "angular.png",
-      "text": "Angular",
+      "title": "Angular",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     }
   ],
   "DB": [
     {
-      "img": "angular.png",
-      "text": "Angular",
+      "img": "oracle.png",
+      "title": "Oracle",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
+    },
+    {
+      "img": "cloudant.png",
+      "title": "Cloudant",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    },
+    {
+      "img": "dynamoDB.png",
+      "title": "DynamoDB",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
+    },
+    {
+      "img": "postgresql.png",
+      "title": "Postgresql",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    },
+    {
+      "img": "redis.png",
+      "title": "Redis",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     }
   ],
   "Cloud": [
     {
       "img": "angular.png",
-      "text": "Angular",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+      "title": "Angular",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     }
   ],
   "Empty": [
     {
       "img": "angular.png",
-      "text": "Angular",
+      "title": "Angular",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     }
   ]

@@ -11,7 +11,7 @@
           [ngClass]="cell.color"
           (click)="select(x_index, y_index)"
           (mouseenter)="mouseenter(cell)">
-          <img *ngIf="cell.json" [src]="cell.getImage(side)" class="cellImg">        
+          <img *ngIf="cell.json && cell.json.img" [src]="cell.getImage(side)" class="cellImg">        
         </div>
     </ng-container>
 </ng-template>

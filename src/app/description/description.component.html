@@ -4,6 +4,7 @@
     </p>
 </div>
 <div class="description" *ngIf="cell">
-  <p *ngIf="cell.json">{{cell.json.text}}</p>
+  <h3 *ngIf="cell.json">{{cell.json.title}}</h3>
+  <p>{{cell.json.desc}}</p>
 </div>
 
