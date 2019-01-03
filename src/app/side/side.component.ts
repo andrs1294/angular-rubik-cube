@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Cube, Side } from '../models';
+import { Cube, Side, Cell } from '../models';
+import { CellService } from '../models/cell.service';
 
 @Component({
   selector: 'app-side',
@@ -11,7 +12,15 @@ export class SideComponent {
   @Input() cube: Cube;
   @Input() side: Side;
 
+  constructor(private cellService: CellService) {
+
+  }
+
   select(x, y) {
     this.side.selectCell(x, y);
+  }
+
+  mouseenter(cell: Cell) {
+    this.cellService.changeMessage(cell);
   }
 }

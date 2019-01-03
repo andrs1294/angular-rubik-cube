@@ -9,7 +9,7 @@ export class Side {
 
   constructor(public color: Color, public position: SidePosition, public text: string = '') {
     this.cells = [
-      [new Cell(color, data[text][0].img), new Cell(color), new Cell(color)],
+      [new Cell(color, data[text][0]), new Cell(color), new Cell(color)],
       [new Cell(color), new Cell(color), new Cell(color)],
       [new Cell(color), new Cell(color), new Cell(color)],
     ];

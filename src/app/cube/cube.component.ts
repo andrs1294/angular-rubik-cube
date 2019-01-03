@@ -14,7 +14,7 @@ export class CubeComponent {
   mouseDown = false;
   last: MouseEvent;
   mode: Mode;
-  showSideText = true;
+  showSideText = false;
   constructor() {
     this.cube = new Cube();
     this.mode = Mode.Move;

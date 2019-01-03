@@ -10,6 +10,7 @@ import { HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { HammerConfig } from './hammer-config';
 import { FooterComponent } from './footer/footer.component';
 import { DescriptionComponent } from './description/description.component';
+import { CellService } from './models/cell.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { DescriptionComponent } from './description/description.component';
     BrowserModule,
     FormsModule
   ],
-  providers: [{ provide: HAMMER_GESTURE_CONFIG, useClass: HammerConfig }],
+  providers: [{ provide: HAMMER_GESTURE_CONFIG, useClass: HammerConfig }, CellService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

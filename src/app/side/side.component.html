@@ -9,8 +9,9 @@
           <div *ngFor="let cell of row; let y_index = index" class="cell"
           [class.selected]="cell.isSelected(x_index, y_index, side)"
           [ngClass]="cell.color"
-          (click)="select(x_index, y_index)">
-          <img *ngIf="cell.text" [src]="cell.getImage(side)" class="cellImg">        
+          (click)="select(x_index, y_index)"
+          (mouseenter)="mouseenter(cell)">
+          <img *ngIf="cell.json" [src]="cell.getImage(side)" class="cellImg">        
         </div>
     </ng-container>
 </ng-template>

@@ -4,7 +4,7 @@ import { Side } from './side';
 import { Constants } from '../enums';
 
 export class Cell {
-  constructor(public color: Color, public text: string = null) {
+  constructor(public color: Color, public json: any = null) {
   }
 
   isSelected(x, y, side: Side) {
@@ -14,6 +14,6 @@ export class Cell {
   }
 
   getImage(side:Side) {
-    return Constants.BaseImage + side.text + '/' + this.text;
+    return Constants.BaseImage + side.text + '/' + this.json.img;
   }
 }

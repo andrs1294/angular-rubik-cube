@@ -1,5 +1,5 @@
 :host {
-  --cube-size: 45vh;
+  --cube-size: 42vh;
   --side-size: calc(var(--cube-size) / 2);
   --side-size-opposite: calc((var(--cube-size) / 2) * -1);
 }
