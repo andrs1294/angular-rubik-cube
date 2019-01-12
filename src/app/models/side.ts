@@ -9,9 +9,10 @@ export class Side {
 
   constructor(public color: Color, public position: SidePosition, public text: string = '') {
     this.cells = [
-      [new Cell(color, this.getValueJson(text,0)), new Cell(color, this.getValueJson(text,1)), new Cell(color, this.getValueJson(text,2))],
-      [new Cell(color, this.getValueJson(text,3)), new Cell(color, this.getValueJson(text,4)), new Cell(color, this.getValueJson(text,5))],
-      [new Cell(color, this.getValueJson(text,6)), new Cell(color, this.getValueJson(text,7)), new Cell(color, this.getValueJson(text,8))],
+      [new Cell(color, this.getValueJson(text,0)), new Cell(color, this.getValueJson(text,1)), new Cell(color, this.getValueJson(text,2)), new Cell(color, this.getValueJson(text,2))],
+      [new Cell(color, this.getValueJson(text,0)), new Cell(color, this.getValueJson(text,1)), new Cell(color, this.getValueJson(text,2)), new Cell(color, this.getValueJson(text,2))],
+      [new Cell(color, this.getValueJson(text,3)), new Cell(color, this.getValueJson(text,4)), new Cell(color, this.getValueJson(text,5)), new Cell(color, this.getValueJson(text,5))],
+      [new Cell(color, this.getValueJson(text,6)), new Cell(color, this.getValueJson(text,7)), new Cell(color, this.getValueJson(text,8)), new Cell(color, this.getValueJson(text,8))],
     ];
   }
 
@@ -20,7 +21,7 @@ export class Side {
     CurrentSelection.location = new Location(x, y);
   }
 
-  getValueJson(category: string, index:Number) {
+  getValueJson(category: string, index:number) {
     if(data[category] && data[category][index]) {
       return data[category][index];
     } else {
