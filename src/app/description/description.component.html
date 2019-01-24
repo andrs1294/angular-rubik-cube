@@ -1,10 +1,11 @@
-<div class="title">
-    <p>
+ <div class="container">
+  <div class="title">
+    <h3>
         Descripción
-    </p>
+    </h3>
+  </div>
+  <div class="description" *ngIf="cell">
+    <h3 *ngIf="cell.json">{{cell.json.title}}</h3>
+    <p>{{cell.json.desc}}</p>
+  </div>
 </div>
-<div class="description" *ngIf="cell">
-  <h3 *ngIf="cell.json">{{cell.json.title}}</h3>
-  <p>{{cell.json.desc}}</p>
-</div>
-

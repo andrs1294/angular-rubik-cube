@@ -1,7 +1,16 @@
 .title {
   font-weight: bold;
   font-size: 22px;
+  color: #535C5E;
 }
 .description {
 
+}
+
+.container {
+  background: #E3E7E7;
+  width: 100%;
+  padding: 4%;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
 }

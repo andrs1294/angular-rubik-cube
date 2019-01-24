@@ -4,12 +4,22 @@
       "img": "angular.png",
       "title": "Angular",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+    }, 
+    {
+      "img": "html.png",
+      "title": "HTML",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     }
   ],
   "Back-end": [
     {
-      "img": "angular.png",
-      "title": "Angular",
+      "img": "java.png",
+      "title": "Java",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
+    },
+    {
+      "img": "node.svg",
+      "title": "Node.Js",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     }
   ],
@@ -49,8 +59,13 @@
   ],
   "Cloud": [
     {
-      "img": "angular.png",
-      "title": "Angular",
+      "img": "aws.png",
+      "title": "Amazon Web Services",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
+    }, 
+    {
+      "img": "azure.png",
+      "title": "Azure",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     }
   ],

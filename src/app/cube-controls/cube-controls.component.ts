@@ -9,12 +9,4 @@ import { Mode } from '../enums';
 })
 export class CubeControlsComponent {
 
-  @Input() cube: Cube;
-  @Input() mode: Mode;
-  @Output() modeChange = new EventEmitter();
-
-  change(newValue) {
-    this.mode = newValue;
-    this.modeChange.emit(newValue);
-  }
 }
