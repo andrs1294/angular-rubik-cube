@@ -1,10 +1,11 @@
-[
-  {
+[{
     "name": "Spring Framework",
     "img": "spring.png"
-  },
-  {
+  },{
     "name": "Spark",
     "img": "spark.svg"
+  },{
+    "name": "Micronaut",
+    "img": "micronaut.svg"
   }
 ]

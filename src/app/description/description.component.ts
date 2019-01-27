@@ -29,17 +29,15 @@ export class DescriptionComponent implements OnInit {
     const json = this.cell.json;
     const category = json.category;
     const item = json.base;
-    /*
-    this.getJSON(category, item, type).subscribe(data => {
-      console.log(data);
-      this.cell.json[type] = data;
-    }); */
 
-    this.getJSON(category, item, type).subscribe({
-      next(data) { this.cell.json[type] = data;},
-      error(err) { console.log('asd') }
-    }); 
+    this.getJSON(category, item, type).subscribe( data => {this.cell.json[type] = data;}); 
 
+  }
+
+  getBaseToCarousel(type: string) {
+    const json = this.cell.json;
+    const item = json.base;
+    return '../../../assets/images/' + json.category + '/' + item + '/' + type + '/';
   }
   public getJSON(category: string, item: string, type: string): Observable<any> {
     return this.http.get('../../assets/data/' + category + '/' + item + '/' + type + '.json');

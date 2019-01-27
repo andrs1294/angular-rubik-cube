@@ -8,22 +8,27 @@ import { Cell } from 'src/app/models';
 })
 export class CarouselComponent implements OnInit {
 
-  @Input() private cell: Cell;
+  @Input() private data: any;
+  @Input() private base: string;
+  private slideConfig = {"slidesToShow": 3, "slidesToScroll": 3};
+  private slides = [];
+
+
   constructor() { }
 
   ngOnInit() {
+    if ( this.data ) {
+      this.setSlides();
+    }
   }
 
-  slides = [
-    {img: "http://placehold.it/350x150/000000"},
-    {img: "http://placehold.it/350x150/111111"},
-    {img: "http://placehold.it/350x150/333333"},
-    {img: "http://placehold.it/350x150/666666"}
-  ];
-  slideConfig = {"slidesToShow": 3, "slidesToScroll": 3};
-
-  addSlide() {
-    this.slides.push({img: "http://placehold.it/350x150/777777"})
+  setSlides() {
+    for( let x = 0; x < this.data.length; x++ ) {
+      this.slides.push({
+        img: this.base + this.data[x].img,
+      });
+    } 
+    console.log(JSON.stringify(this.slides))
   }
 
   removeSlide() {
@@ -31,7 +36,6 @@ export class CarouselComponent implements OnInit {
   }
 
   afterChange(e) {
-    console.log('afterChange');
+    //logs
   }
-
 }
