@@ -11,6 +11,8 @@ import { HammerConfig } from './hammer-config';
 import { FooterComponent } from './footer/footer.component';
 import { DescriptionComponent } from './description/description.component';
 import { CellService } from './models/cell.service';
+import { SlickModule } from 'ngx-slick';
+import { CarouselComponent } from './description/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +21,13 @@ import { CellService } from './models/cell.service';
     SideComponent,
     CubeControlsComponent,
     FooterComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    SlickModule.forRoot()
   ],
   providers: [{ provide: HAMMER_GESTURE_CONFIG, useClass: HammerConfig }, CellService],
   bootstrap: [AppComponent]
