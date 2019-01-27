@@ -22,29 +22,15 @@ export class Side {
 
   getValueJson(category: string, index:number) {
     if(data[category] && data[category][index]) {
-      return data[category][index];
+      let json = data[category][index];
+      json.category = category;
+      return json;
     } else {
       return {
         img: '',
-        text: '',
+        title: '',
         desc: ''
       }
     }
-  }
-
-  rotateLeft() {
-    this.cells = [
-      [this.cells[2][0], this.cells[1][0], this.cells[0][0]],
-      [this.cells[2][1], this.cells[1][1], this.cells[0][1]],
-      [this.cells[2][2], this.cells[1][2], this.cells[0][2]]
-    ];
-  }
-
-  rotateRight() {
-    this.cells = [
-      [this.cells[0][2], this.cells[1][2], this.cells[2][2]],
-      [this.cells[0][1], this.cells[1][1], this.cells[2][1]],
-      [this.cells[0][0], this.cells[1][0], this.cells[2][0]]
-    ];
   }
 }

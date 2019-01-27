@@ -14,6 +14,6 @@ export class Cell {
   }
 
   getImage(side:Side) {
-    return Constants.BaseImage + side.text + '/' + this.json.img;
+    return Constants.BaseImage + side.text + '/' + this.json.base + '/' + this.json.img;
   }
 }

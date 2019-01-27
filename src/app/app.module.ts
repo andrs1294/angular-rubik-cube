@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { CubeComponent } from './cube/cube.component';
@@ -27,6 +28,7 @@ import { CarouselComponent } from './description/carousel/carousel.component';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     SlickModule.forRoot()
   ],
   providers: [{ provide: HAMMER_GESTURE_CONFIG, useClass: HammerConfig }, CellService],
