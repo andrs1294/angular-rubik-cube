@@ -9,3 +9,8 @@ html, body {
 html * {
   font-family: 'Nunito', sans-serif;
 }
+
+.slick-track{
+  display:flex !important;
+  align-items:center;
+}
