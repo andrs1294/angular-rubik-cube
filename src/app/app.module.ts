@@ -9,7 +9,6 @@ import { SideComponent } from './side/side.component';
 import { CubeControlsComponent } from './cube-controls/cube-controls.component';
 import { HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { HammerConfig } from './hammer-config';
-import { FooterComponent } from './footer/footer.component';
 import { DescriptionComponent } from './description/description.component';
 import { CellService } from './models/cell.service';
 import { SlickModule } from 'ngx-slick';
@@ -21,7 +20,6 @@ import { CarouselComponent } from './description/carousel/carousel.component';
     CubeComponent,
     SideComponent,
     CubeControlsComponent,
-    FooterComponent,
     DescriptionComponent,
     CarouselComponent
   ],

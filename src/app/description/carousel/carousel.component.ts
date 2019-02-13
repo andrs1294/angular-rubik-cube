@@ -27,8 +27,7 @@ export class CarouselComponent implements OnInit {
       this.slides.push({
         img: this.base + this.data[x].img,
       });
-    } 
-    console.log(JSON.stringify(this.slides))
+    }
   }
 
   removeSlide() {

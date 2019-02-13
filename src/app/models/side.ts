@@ -26,11 +26,7 @@ export class Side {
       json.category = category;
       return json;
     } else {
-      return {
-        img: '',
-        title: '',
-        desc: ''
-      }
+      return null;
     }
   }
 }

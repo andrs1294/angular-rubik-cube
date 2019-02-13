@@ -19,8 +19,11 @@ export class DescriptionComponent implements OnInit {
   ngOnInit() {
     this.cellService.currentMessage.subscribe(message => {
       this.cell = message;
-      if(message) {
-        this.setOtherProperties('frameworks');
+      if(message && message.json) {
+        const fields = message.json.carousel;
+        for(let i = 0; i < fields.length; i++) {
+          this.setOtherProperties(fields[i]);
+        }
       }
     })
   }
@@ -29,7 +32,7 @@ export class DescriptionComponent implements OnInit {
     const json = this.cell.json;
     const category = json.category;
     const item = json.base;
-
+    delete this.cell.json[type];
     this.getJSON(category, item, type).subscribe( data => {this.cell.json[type] = data;}); 
 
   }
@@ -39,6 +42,7 @@ export class DescriptionComponent implements OnInit {
     const item = json.base;
     return '../../../assets/images/' + json.category + '/' + item + '/' + type + '/';
   }
+
   public getJSON(category: string, item: string, type: string): Observable<any> {
     return this.http.get('../../assets/data/' + category + '/' + item + '/' + type + '.json');
   }
