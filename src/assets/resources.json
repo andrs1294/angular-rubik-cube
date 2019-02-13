@@ -13,7 +13,7 @@
       "img": "java.png",
       "base": "java",
       "title": "Java",
-      "carousel":["frameworks"],
+      "carousel":["frameworks","libraries"],
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     },
     {
