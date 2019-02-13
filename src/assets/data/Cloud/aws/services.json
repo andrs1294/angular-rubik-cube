@@ -1,0 +1,33 @@
+[
+  {
+    "name": "S3",
+    "img": "s3.png"
+  },{
+    "name": "Cloud Formation",
+    "img": "cloudformation.png"
+  },{
+    "name": "Cloudwatch",
+    "img": "cloudwatch.png"
+  },{
+    "name": "DynamoDB",
+    "img": "dynamodb.png"
+  },{
+    "name": "EC2",
+    "img": "ec2.png"
+  },{
+    "name": "ECS",
+    "img": "ecs.png"
+  },{
+    "name": "EKS",
+    "img": "eks.png"
+  },{
+    "name": "RDS",
+    "img": "rds.png"
+  },{
+    "name": "Route53",
+    "img": "route53.png"
+  },{
+    "name": "Secrets Mnager",
+    "img": "secrets-manager.png"
+  }
+]

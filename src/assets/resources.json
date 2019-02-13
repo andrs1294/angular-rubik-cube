@@ -26,7 +26,7 @@
   ],
   "Mobile": [
     {
-      "img": "angular.png",
+      "img": "xamarin.png",
       "title": "Xamarin",
       "base": "xamarin",
       "carousel":[],
@@ -38,35 +38,35 @@
       "img": "oracle.png",
       "title": "Oracle",
       "base": "oracle",
-      "carousel":[],
+      "carousel":["libraries"],
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     },
     {
       "img": "cloudant.png",
       "title": "Cloudant",
       "base": "cloudant",
-      "carousel":[],
+      "carousel":["libraries"],
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     },
     {
       "img": "dynamoDB.png",
       "title": "DynamoDB",
       "base": "dynamodb",
-      "carousel":[],
+      "carousel":["libraries"],
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     },
     {
       "img": "postgresql.png",
       "title": "Postgresql",
       "base": "postgresql",
-      "carousel":[],
+      "carousel":["libraries"],
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     },
     {
       "img": "redis.png",
       "title": "Redis",
       "base": "redis",
-      "carousel":[],
+      "carousel":["libraries"],
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
     }
   ],
@@ -75,7 +75,7 @@
       "img": "aws.png",
       "base": "aws",
       "title": "Amazon Web Services",
-      "carousel":[],
+      "carousel":["services"],
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
     }, 
     {

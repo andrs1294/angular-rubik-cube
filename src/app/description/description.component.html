@@ -6,5 +6,13 @@
       <h4>Frameworks: </h4>
       <app-carousel [data]="cell.json.frameworks" [base]="getBaseToCarousel('frameworks')"></app-carousel>
     </div>
+    <div *ngIf="cell.json.services">
+      <h4>Servicios: </h4>
+      <app-carousel [data]="cell.json.services" [base]="getBaseToCarousel('services')"></app-carousel>
+    </div>
+    <div *ngIf="cell.json.libraries">
+      <h4>Librerías: </h4>
+      <app-carousel [data]="cell.json.libraries" [base]="getBaseToCarousel('libraries')"></app-carousel>
+    </div>
   </div>
 </div>
