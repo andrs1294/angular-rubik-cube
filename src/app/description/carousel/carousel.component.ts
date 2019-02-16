@@ -10,8 +10,8 @@ export class CarouselComponent implements OnInit {
 
   @Input() private data: any;
   @Input() private base: string;
-  private slideConfig = {"slidesToShow": 3, "slidesToScroll": 3};
-  private slides = [];
+  slideConfig = {"slidesToShow": 3, "slidesToScroll": 3};
+  slides = [];
 
 
   constructor() { }
