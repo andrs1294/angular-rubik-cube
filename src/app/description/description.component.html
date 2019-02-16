@@ -1,7 +1,7 @@
  <div class="container">
   <div class="description" *ngIf="cell && cell.json">
     <h3>{{cell.json.title}}</h3>
-    <p>{{cell.json.desc}}</p>
+    <p ALIGN=JUSTIFY>{{cell.json.desc}}</p>
     <div *ngIf="cell.json.frameworks">
       <h4>Frameworks: </h4>
       <app-carousel [data]="cell.json.frameworks" [base]="getBaseToCarousel('frameworks')"></app-carousel>

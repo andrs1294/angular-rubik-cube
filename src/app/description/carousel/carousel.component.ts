@@ -26,6 +26,7 @@ export class CarouselComponent implements OnInit {
     for( let x = 0; x < this.data.length; x++ ) {
       this.slides.push({
         img: this.base + this.data[x].img,
+        title: this.data[x].name
       });
     }
   }

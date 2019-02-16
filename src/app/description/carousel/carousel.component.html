@@ -1,5 +1,5 @@
 <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig" (afterChange)="afterChange($event)">
   <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-        <img src="{{ slide.img }}" alt="" width="70%" height="70%">
+        <img src="{{ slide.img }}" alt="" width="70%" height="70%" title="{{slide.title}}">
   </div>
 </ngx-slick>
