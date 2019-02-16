@@ -10,8 +10,8 @@ export class Side {
   constructor(public color: Color, public position: SidePosition, public text: string = '') {
     this.cells = [
       [new Cell(color, this.getValueJson(text,0)), new Cell(color, this.getValueJson(text,1)), new Cell(color, this.getValueJson(text,2))],
-      [new Cell(color, this.getValueJson(text,4)), new Cell(color, this.getValueJson(text,5)), new Cell(color, this.getValueJson(text,6))],
-      [new Cell(color, this.getValueJson(text,8)), new Cell(color, this.getValueJson(text,9)), new Cell(color, this.getValueJson(text,10))],
+      [new Cell(color, this.getValueJson(text,3)), new Cell(color, this.getValueJson(text,4)), new Cell(color, this.getValueJson(text,5))],
+      [new Cell(color, this.getValueJson(text,6)), new Cell(color, this.getValueJson(text,7)), new Cell(color, this.getValueJson(text,8))],
     ];
   }
 

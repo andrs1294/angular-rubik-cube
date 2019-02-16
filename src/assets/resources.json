@@ -5,7 +5,7 @@
       "title": "HTML",
       "base": "html",
       "carousel":["frameworks"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+      "desc": "Es al lenguaje de marcado para la elaboración de páginas web. Es un estandar que define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. "
     }
   ],
   "Back-end": [
@@ -14,14 +14,13 @@
       "base": "java",
       "title": "Java",
       "carousel":["frameworks","libraries"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
-    },
-    {
+      "desc": "Es un lenguaje de programación de propósito general, concurrente, orientado a objetos. Su intención es permitir que las aplicaciones se programen una vez y se ejecuten en cualquier dispositivo, en otras palabras, el código que es ejecutado en una plataforma no tiene que ser recompilado para correr en otra."
+    },{
       "img": "node.svg",
       "base": "node",
       "title": "Node.Js",
       "carousel":["frameworks"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
+      "desc": "Es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación ECMAScript, asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google."
     }
   ],
   "Mobile": [
@@ -30,7 +29,7 @@
       "title": "Xamarin",
       "base": "xamarin",
       "carousel":[],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+      "desc": "Con un código compartido del lenguaje de programación C#, los desarrolladores de software pueden usar Xamarin para escribir aplicaciones móviles nativas para Android, iOS y Windows, y compartir código a través de múltiples plataformas, incluyendo Windows y macOS."
     }
   ],
   "DB": [
@@ -38,36 +37,26 @@
       "img": "oracle.png",
       "title": "Oracle",
       "base": "oracle",
-      "carousel":["libraries"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
-    },
-    {
+      "carousel":[],
+      "desc": "Oracle Database es un sistema de gestión de base de datos de tipo objeto-relacional desarrollado por Oracle Corporation."
+    },{
       "img": "cloudant.png",
       "title": "Cloudant",
       "base": "cloudant",
-      "carousel":["libraries"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
-    },
-    {
+      "carousel":[],
+      "desc": "Es una base de datos no relacional y distribuida soportada por IBM, primordialmente encontrado como servicio nube en Bluemix."
+    },{
       "img": "dynamoDB.png",
       "title": "DynamoDB",
       "base": "dynamodb",
-      "carousel":["libraries"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
-    },
-    {
+      "carousel":[],
+      "desc": "Es un servicio de base de datos noSQL ofrecido por Amazon como parte de Amazon Web Services. DynamoDB difiere de otros servicios de Amazon al permitir a los desarrolladores comprar un servicio basado en el rendimiento, en lugar de almacenamiento"
+    },{
       "img": "postgresql.png",
       "title": "Postgresql",
       "base": "postgresql",
-      "carousel":["libraries"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
-    },
-    {
-      "img": "redis.png",
-      "title": "Redis",
-      "base": "redis",
-      "carousel":["libraries"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam"
+      "carousel":[],
+      "desc": "Es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto"
     }
   ],
   "Cloud": [
@@ -76,14 +65,19 @@
       "base": "aws",
       "title": "Amazon Web Services",
       "carousel":["services"],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
-    }, 
-    {
+      "desc": "Es una colección de servicios de computación en la nube pública (también llamados servicios web) que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com."
+    }, {
       "img": "azure.png",
-      "title": "Azure",
+      "title": "Microsoft Azure",
       "base": "azure",
-      "carousel":[],
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus, et imperdiet quam, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie orci lacus"
+      "carousel":["services"],
+      "desc": "Es un conjunto de servicios nube cuya infraestructura está alojada en los Data Centers de Microsoft. Azure es una plataforma general que tiene diferentes servicios para aplicaciones. por ejemplo, es el encargado de proporcionar el alojamiento de aplicaciones y proporcionar almacenamiento no relacional"
+    }, {
+      "img": "bluemix.png",
+      "title": "IBM Bluemix",
+      "base": "bluemix",
+      "carousel":["services"],
+      "desc": "Es un entorno de plataforma como servicio desarrollado por IBM. Soporta varios lenguajes de programación y servicios1​ así como la metodología de desarrollo DevOps de forma integrada para crear, ejecutar, desplegar y gestionar aplicaciones en la nube."
     }
   ],
   "Others": [
